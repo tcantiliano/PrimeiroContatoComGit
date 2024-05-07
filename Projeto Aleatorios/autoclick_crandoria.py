@@ -1,7 +1,11 @@
 import pyautogui as pg
+import keyboard
 
-pg.PAUSE = 0.75
+keyboard.wait('g')
+pg.PAUSE = 3
 
-while True:
-    pg.press("num0")
-    pg.click(x=1133, y=701)
+while True:    
+    pg.press('F11')
+    pg.click(x=910, y=446)
+
+# print(pg.position())
