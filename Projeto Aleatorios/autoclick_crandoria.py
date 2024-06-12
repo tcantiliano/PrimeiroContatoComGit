@@ -1,11 +1,10 @@
+import time
 import pyautogui as pg
-import keyboard
 
-keyboard.wait('g')
-pg.PAUSE = 3
+pg.PAUSE = 8
 
-while True:    
-    pg.press('F11')
-    pg.click(x=910, y=446)
+#print(pg.position())
 
-# print(pg.position())
+while True:
+    pg.click(x=1361, y=717)
+    pg.press('num4')
